@@ -1,0 +1,12 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optionally add custom dark mode styles here */
+html {
+  background-color: #f5f5f5; /* light background */
+}
+html.dark {
+  background-color: #1a202c; /* dark background */
+}
